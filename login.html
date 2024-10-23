@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link href="./assets/images/icon-logo.png" rel="icon" class="favicon" />
+    <title>My Content Partner | Login</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css" />
+
+  </head>
+  <body>
+  <!-- AUTH SECTION -->
+  <section id="auth">
+    <div class="row align-items-center">
+      <!-- login Form -->
+      <div class="col-lg-5 col-md-12 my-auto pr-0">
+        <div class="login-blog">
+          <div class="wd-auth-heading">
+            <a href="index.html" class="auth-brand">
+              <h1>My Content Partner </h1>
+            </a>
+            <h1 class="wd-auth-heading-title">Welcome to Sugarin</h1>
+            <p class="wd-auth-txt">Please Login your account</p>
+          </div>
+          <ul class="wd-login">
+            <li class="active">
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="signup.html">Sign Up</a>
+            </li>
+          </ul>
+          <div class="auth-form">
+            <form>
+              <div class="form-group">
+                <div class="input_group position-relative">
+                  <label>Email ID</label>
+                  <div class="wd-input-type">
+                    <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="1" y="1" width="20" height="16" rx="5" stroke="#101010" stroke-width="1.5" />
+                      <path d="M5 6L9.8 9.6C10.5111 10.1333 11.4889 10.1333 12.2 9.6L17 6" stroke="#101010" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <input type="text" name="user" class="form-control" placeholder="Email ID">
+                  </div>
+                </div>
+                <span class="error d-none">Wrong Password, Account will be locked if password entered incorrectly 3 times</span>
+              </div>
+              <div class="form-group">
+                <div class="input_group position-relative">
+                  <label>Password</label>
+                  <div class="input_group position-relative">
+                    <div class="wd-input-type">
+                      <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 13C9 13.5523 8.55228 14 8 14C7.44772 14 7 13.5523 7 13C7 12.4477 7.44772 12 8 12C8.55228 12 9 12.4477 9 13Z" stroke="#101010" stroke-width="1.5" />
+                        <path d="M11 7C12.8856 7 13.8284 7 14.4142 7.58579C15 8.17157 15 9.11438 15 11L15 13L15 15C15 16.8856 15 17.8284 14.4142 18.4142C13.8284 19 12.8856 19 11 19L8 19L5 19C3.11438 19 2.17157 19 1.58579 18.4142C1 17.8284 1 16.8856 1 15L1 13L1 11C1 9.11438 1 8.17157 1.58579 7.58579C2.17157 7 3.11438 7 5 7L8 7L11 7Z" stroke="#101010" stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M5 7V3C5 1.89543 5.89543 1 7 1H9C10.1046 1 11 1.89543 11 3V7" stroke="#101010" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <input type="password" name="pass" class="form-control" placeholder="Password">
+                    </div>
+                    <i class="toggle-hide-show fa fa-eye-slash"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group text-right">
+                <a href="" class="interlink" data-toggle="modal" data-target="#exampleModal">Forgot Password ?</a>
+              </div>
+              <div class="form-group">
+                <a href="index.html" class="auth-btn loginbtn">LOG IN</a>
+              </div>
+            </form>
+          </div>
+          <div class="auth-media">
+            <div class="wd-media-txt">
+              <span>Or Login with</span>
+            </div>
+            <div class="wd-media-btn">
+              <a href="javascript:;" class="facebook">
+                <img src="./assets/images/beforelogin/fb.png" alt="fb" class="img-fluid"> Facebook </a>
+              <a href="javascript:;" class="google">
+                <img src="./assets/images/beforelogin/google.png" alt="google" class="img-fluid"> Google </a>
+              <a href="javascript:;" class="twitter">
+                <img src="./assets/images/beforelogin/twitter.png" alt="twitter" class="img-fluid"> Twitter </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 wd-login-lft">
+        <!--  <div class="wd-login-lft"><img src="./assets/images/beforelogin/banner-login.png" alt="login-banner" class="img-fluid"></div> -->
+      </div>
+    </div>
+  </section>
+</body>
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-body wd-login-modal">
+            <form action="">
+
+                <div class="wd-popup-img">
+                    <img src="./assets/images/beforelogin/fgtpwd.png" alt="Forgot Pwd" >
+                </div>
+                <div class="wd-popuptxt">
+                    <h4>Forgot Your Password?</h4>
+                    <p>Don’t worry! Resetting your password is easy. just type
+                        in the email you registered to Sugarin.</p>
+                    </div>
+                    
+                    <div class="input_group position-relative wd-popup-input">
+                        <label>Email  ID</label>                                            
+                        <div class="wd-input-type">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="4" width="20" height="16" rx="5" stroke="#101010" stroke-width="1.5"/>
+                                <path d="M6 9L10.8 12.6C11.5111 13.1333 12.4889 13.1333 13.2 12.6L18 9" stroke="#101010" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <input type="text" name="user" class="form-control" placeholder="Enter Email Address">                                                                            
+                        </div>
+                      </div>
+                      <button type="submit" class="auth-btn">Send</button>
+                </form>          
+                </div>
+          
+
+          </div>
+        </div>
+    </div>
+  <!-- Bootstrap JS & Jquery -->
+  <script src="./assets/vendors/jquery/jquery.min.js"></script>
+  <script src="./assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!-- custom js -->
+  <script src="./assets/js/auth.js"></script>
+</html>
